@@ -1,6 +1,7 @@
 package game;
 
 public class Ownable extends Field{
+	
 
 	protected int price;
 	protected String Player;
