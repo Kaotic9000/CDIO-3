@@ -13,10 +13,10 @@ public class Game {
 	
 	public Game() {
 		// Create Fields
-        Fields Field = new Fields();
+        Field Field = new Field();
 		
         // How many Players?
-        
+        int NumberofPlayers = GUI.getUserSelection("", "2 Players", "3 Players", "4 Players", "5 Players", "6 Players");
         
         // Create Player 1,2,3,4,5,6
         Player Player1 = new Player();
