@@ -1,5 +1,5 @@
 package game;
 
-public class Labor {
+public class Labor extends Ownable {
 private int baserent;
 }
